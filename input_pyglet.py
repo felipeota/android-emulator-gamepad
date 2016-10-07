@@ -3,8 +3,8 @@ import flatbuffers
 import inspect
 import math
 import time
-from MoltenGamepad import Event
-from MoltenGamepad.Type import Type
+from MoltenGamepadBuffers import Event
+from MoltenGamepadBuffers.Type import Type
 from multiprocessing import Process, Queue
 from nanomsg import Socket, PAIR, PUB
 import signal

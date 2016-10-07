@@ -1,5 +1,5 @@
 // Example IDL file for our monster's schema.
-namespace MoltenGamepad;
+namespace MoltenGamepadBuffers;
 
 enum Type:byte { Abs, Btn, Syn }
 
