@@ -1,0 +1,12 @@
+// Example IDL file for our monster's schema.
+namespace MoltenGamepad;
+
+enum Type:byte { Abs, Btn, Syn }
+
+table Event {
+  code:string;
+  type:Type;
+  val:short;
+}
+
+root_type Event;
